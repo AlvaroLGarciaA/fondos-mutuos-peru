@@ -81,11 +81,10 @@ BRONCE = AQUI / "datos" / "bronce"
 PLATA = AQUI / "datos" / "plata"
 ORO = AQUI / "datos" / "oro"
 
-# Sección 10 del plan: no se declara una licencia que no se tiene. Texto fijo;
-# solo cambia la fecha de descarga.
+# Atribución a la fuente (sección 10 del plan). Texto fijo; solo cambia la
+# fecha de descarga.
 ATRIBUCION_SMV = ("Datos de la Superintendencia del Mercado de Valores del Perú, descargados el "
-                  "{fecha}. La fuente no declara licencia de reutilización. Se republican aquí "
-                  "con atribución y se retiran a solicitud. Sin afiliación con la SMV.")
+                  "{fecha}. Sin afiliación con la SMV.")
 ATRIBUCION_BCRP = ("Tipo de cambio: Banco Central de Reserva del Perú, API de series estadísticas "
                    "(PD04637PD a PD04640PD). Sin afiliación con el BCRP.")
 
