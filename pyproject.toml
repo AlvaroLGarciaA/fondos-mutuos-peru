@@ -1,0 +1,10 @@
+[project]
+name = "fondos-mutuos-peru"
+version = "0.1.0"
+description = "Limpieza y modelado de los datos diarios de los fondos mutuos peruanos (SMV)"
+requires-python = ">=3.11"
+dependencies = [
+    "duckdb",
+    "pandas",
+    "pyarrow",
+]
